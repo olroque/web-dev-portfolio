@@ -25,6 +25,10 @@ p {
   margin-inline-end: 0px;
 }
 
+ol, ul {
+  list-style: none;
+}
+
 .site-header {
   display: flex;
   align-items: center;
@@ -32,6 +36,7 @@ p {
 
 nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   height: 55px;
   margin-top: 25px;
@@ -42,6 +47,7 @@ nav {
 }
 
 .logo {
+  padding-left: 8px;
   font-size: 20px;
   letter-spacing: 0.2em;
   font-weight: bold;
@@ -49,4 +55,12 @@ nav {
 
 .nav-links {
   display: flex;
+  padding: 0 5px;
+}
+
+.nav-link-item {
+  line-height: 30px;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 100;
 }
