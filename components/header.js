@@ -9,7 +9,7 @@ export default function Header() {
                     {/* Logo */}
                     <div className="logo-container">
                         <Link href="/">
-                            <p className="logo">OMAR ROQUE</p>
+                            <p className="logo">ROQUE</p>
                         </Link>
                     </div>
                     {/* Nav Links */}
