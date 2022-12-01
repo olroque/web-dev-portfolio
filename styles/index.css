@@ -1,3 +1,52 @@
+:root {
+  --color_0: 255,255,255;
+  --color_27: 129,140,190;
+  --color_1: 255,255,255;
+  --color_2: 0,0,0;
+  --color_3: 237,28,36;
+  --color_4: 0,136,203;
+  --color_5: 255,203,5;
+  --color_6: 114,114,114;
+  --color_7: 176,176,176;
+  --color_8: 255,255,255;
+  --color_28: 97,105,143;
+  --color_9: 114,114,114;
+  --color_10: 176,176,176;
+  --color_11: 255,255,255;
+  --color_12: 232,230,230;
+  --color_13: 199,199,199;
+  --color_14: 89,89,89;
+  --color_15: 0,0,0;
+  --color_16: 229,191,182;
+  --color_17: 202,153,141;
+  --color_18: 176,90,69;
+  --color_29: 65,70,95;
+  --color_19: 117,60,46;
+  --color_20: 59,30,23;
+  --color_21: 203,209,205;
+  --color_22: 156,164,158;
+  --color_23: 107,118,110;
+  --color_24: 71,79,73;
+  --color_25: 36,39,37;
+  --color_30: 32,35,48;
+  --color_31: 255,224,196;
+  --color_32: 255,193,136;
+  --color_33: 191,145,102;
+  --color_34: 128,97,68;
+  --color_35: 64,48,34;
+  --font_0: normal normal normal 110px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+  --font_1: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+  --font_2: normal normal normal 65px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+  --font_3: normal normal normal 44px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+  --font_4: normal normal normal 32px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+  --font_5: normal normal normal 25px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+  --font_6: normal normal normal 20px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+  --font_7: normal normal normal 18px/1.5em helvetica-w01-light,helvetica-w02-light,sans-serif;
+  --font_8: normal normal normal 16px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+  --font_9: normal normal normal 14px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+  --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+}
+
 * {
   box-sizing: border-box;
   padding: 0px;
@@ -9,6 +58,14 @@ html,
 body {
   color: #000000;
   font-family: Arial,Helvetica,sans-serif;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 a {
@@ -74,7 +131,6 @@ nav {
 
 .name-banner-container {
   margin: 20px 0px 250px calc((100% - 980px) * 0);
-
 }
 
 .name-banner {
@@ -83,27 +139,40 @@ nav {
 }
 
 .picture-and-job-title {
-  margin-left: auto;
-  margin-right: auto;
+  height: 350px;
 }
 
 .picture-container {
   margin: 178px 0px 4px calc((100% - 980px) * 1);
+  position: relative;
+  left: -100px;
 }
 
 .creator-pic {
-  position: relative;
-  left: -100px;
   width: 419px;
   height: 294px;
   object-fit: cover;
 }
 
-.job-title {
+.job-title-container {
   position: relative;
   text-align: right;
   line-height: 1.2em;
   font-size: 110px;
   top: -550px;
   z-index: 1;
+}
+
+.job-title {
+  padding-right: 15px;
+}
+
+.creator-description-container div {
+  width: 773px;
+}
+
+.creator-description {
+  font: var(--font_4);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
 }
