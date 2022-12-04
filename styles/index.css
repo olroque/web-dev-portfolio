@@ -123,6 +123,8 @@ nav {
   letter-spacing: 2px;
 }
 
+/* Main Top Section  */
+
 .root {
   width: calc(100% - 40px - 40px);
   margin-left: auto;
@@ -175,4 +177,24 @@ nav {
   font: var(--font_4);
   color: rgb(var(--color_15));
   letter-spacing: 0em;
+}
+
+/* Gallery Section  */
+
+.gallery-row {
+  display: flex;
+}
+
+.gallery-item {
+  display: contents;
+}
+
+.portrait-pic img{
+  max-width: 571px;
+  max-height: 807px;
+}
+
+.landscape-pic img{
+  max-width: 1141px;
+  max-height: 807px;
 }
