@@ -47,29 +47,29 @@ export default function Footer() {
                         <ul>
                             <li>
                                 <p>
-                                    <Link href="/">
+                                    <a target="blank" href="https://github.com/olroque">
                                         <span>
                                             GitHub
                                         </span>
-                                    </Link>
+                                    </a>
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <Link href="/">
+                                    <a target="blank" href="https://www.linkedin.com/in/omarroque/">
                                         <span>
                                             LinkedIn
                                         </span>
-                                    </Link>
+                                    </a>
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <Link href="/">
+                                    <a target="blank" href="https://leetcode.com/oroque/">
                                         <span>
-                                            Blog
+                                            LeetCode
                                         </span>
-                                    </Link>
+                                    </a>
                                 </p>
                             </li>
                         </ul>
