@@ -20,7 +20,7 @@ export default function Main() {
             <section className="creator-description-container">
                 <div>
                     <h4 className="creator-description">
-                        DOLD means ‘hidden’ is Swedish.
+                        DOLD means &#39;hidden&#39; is Swedish.
                         Why hidden, you ask? Our aim is to uncover the simple, strong, undeniable truth of each brand.
                         To find it, we have to ask the right questions, research, rethink, re-everything. This is the only way to ensure that our clients get that simple, powerful visual solution they've been looking for.
                     </h4>

@@ -86,7 +86,7 @@ ol, ul {
   list-style: none;
 }
 
-/* Header  */
+/* Header */
 
 .site-header {
   display: flex;
@@ -125,7 +125,7 @@ nav {
   letter-spacing: 2px;
 }
 
-/* Main  */
+/* Main */
 
 .root {
   width: calc(100% - 40px - 40px);
@@ -181,7 +181,7 @@ nav {
   letter-spacing: 0em;
 }
 
-/* Gallery  */
+/* Gallery */
 
 .gallery-container {
   display: flex;
@@ -210,7 +210,7 @@ nav {
   max-width: 70%;
 }
 
-/* Footer  */
+/* Footer */
 
 footer {
   height: 375px;
@@ -232,7 +232,42 @@ footer {
 footer span {
   line-height: 30px;
   padding: 0 10px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 100;
   letter-spacing: 2px;
+}
+
+/* Portfolio */
+
+.portfolio-top-container {
+  display: flex;  
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.portfolio-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.portfolio-title span {
+  font-size: 110px;
+  font-weight: 100;
+}
+
+.portfolio-description {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+}
+
+.portfolio-description h4 {
+  text-align: center;
+}
+
+.portfolio-description span {
+  font-size: 31px;
+  font-weight: 100;
+  line-height: 4rem;
 }

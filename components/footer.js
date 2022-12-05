@@ -9,7 +9,7 @@ export default function Footer() {
                         <ul>
                             <li>
                                 <p>
-                                    <Link href="/">
+                                    <Link href="/portfolio">
                                         <span>
                                             Portfolio
                                         </span>
@@ -18,7 +18,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <p>
-                                    <Link href="/">
+                                    <Link href="/about">
                                         <span>
                                             About
                                         </span>
@@ -27,7 +27,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <p>
-                                    <Link href="/">
+                                    <Link href="/contact">
                                         <span>
                                             Contact
                                         </span>

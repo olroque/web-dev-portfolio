@@ -16,17 +16,17 @@ export default function Header() {
                     <div className="nav-links-container">
                         <ul className="nav-links">
                             <il className="nav-link">
-                                <Link href="/">
+                                <Link href="/portfolio">
                                     <p className="nav-link-item">Portfolio</p>
                                 </Link>
                             </il>
                             <il className="nav-link">
-                                <Link href="/">
+                                <Link href="/about">
                                     <p className="nav-link-item">About</p>
                                 </Link>
                             </il>
                             <il className="nav-link">
-                                <Link href="/">
+                                <Link href="/contact">
                                     <p className="nav-link-item">Contact</p>
                                 </Link>
                             </il>
