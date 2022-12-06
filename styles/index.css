@@ -123,6 +123,11 @@ nav {
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 2px;
+  transition: .3s;
+}
+
+.nav-link-item:hover {
+  color: #cda041;
 }
 
 /* Main */
@@ -253,10 +258,42 @@ nav {
 }
 
 .portfolio-item {
-  background-image: url('../public/images/1.jpg');
-  width: 600px;
-  height: 600px;
+  display: contents;
+  position: relative;
 }
+
+.portfolio-item a {
+  display: contents;
+}
+
+.portfolio-item img {
+  width: 700px;
+  height: 700px;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.161);
+  z-index: 1;
+  width: 700px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.o-left {
+  position: relative;
+  right: 700px;
+  width: 700px;
+  height: 700px;
+}
+
+.overlay span {
+  color: #fff;
+  font-size: 32px;
+}
+
 
 /* Footer */
 

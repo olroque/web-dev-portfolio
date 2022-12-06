@@ -6,26 +6,46 @@ export default function() {
             <section className="gallery-container">
                 <div className="portfolio-gallery-row">
                     <div className="portfolio-item">
-                        {/* <Link href="/">
+                        <Link href="/">
                             <img src="/images/5.jpg" alt="picture of web developement project" />
-                        </Link> */}
+                            <div className="overlay">
+                                <span>
+                                    Project
+                                </span>
+                            </div>
+                        </Link>
                     </div>
                     <div className="portfolio-item">
-                        {/* <Link href="/">
+                        <Link href="/">
                             <img src="/images/12.jpg" alt="picture of web developement project" />
-                        </Link> */}
+                            <div className="overlay o-left">
+                                <span>
+                                    Project Number 2
+                                </span>
+                            </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="portfolio-gallery-row">
                     <div className="portfolio-item">
-                        {/* <Link href="/">
+                        <Link href="/">
                             <img src="/images/10.jpg" alt="picture of web developement project" />
-                        </Link> */}
+                            <div className="overlay">
+                                <span>
+                                    Project
+                                </span>
+                            </div>
+                        </Link>
                     </div>
                     <div className="portfolio-item">
-                        {/* <Link href="/">
+                        <Link href="/">
                             <img src="/images/11.jpg" alt="picture of web developement project" />
-                        </Link> */}
+                            <div className="overlay o-left">
+                                <span>
+                                    Project
+                                </span>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </section>
