@@ -10,7 +10,7 @@ export default function() {
                             <img src="/images/5.jpg" alt="picture of web developement project" />
                             <div className="overlay">
                                 <span>
-                                    Project
+                                    Project Number 1
                                 </span>
                             </div>
                         </Link>
@@ -18,7 +18,7 @@ export default function() {
                     <div className="portfolio-item">
                         <Link href="/">
                             <img src="/images/12.jpg" alt="picture of web developement project" />
-                            <div className="overlay o-left">
+                            <div className="overlay">
                                 <span>
                                     Project Number 2
                                 </span>
@@ -32,7 +32,7 @@ export default function() {
                             <img src="/images/10.jpg" alt="picture of web developement project" />
                             <div className="overlay">
                                 <span>
-                                    Project
+                                    Project Number 3
                                 </span>
                             </div>
                         </Link>
@@ -40,9 +40,9 @@ export default function() {
                     <div className="portfolio-item">
                         <Link href="/">
                             <img src="/images/11.jpg" alt="picture of web developement project" />
-                            <div className="overlay o-left">
+                            <div className="overlay">
                                 <span>
-                                    Project
+                                    Project Number 4
                                 </span>
                             </div>
                         </Link>

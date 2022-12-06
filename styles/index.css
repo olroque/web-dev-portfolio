@@ -258,8 +258,10 @@ nav {
 }
 
 .portfolio-item {
-  display: contents;
   position: relative;
+  display: contents;
+  width: 700px;
+  height: 700px;
 }
 
 .portfolio-item a {
@@ -273,7 +275,7 @@ nav {
 
 .overlay {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.161);
+  background-color: #00000029;
   z-index: 1;
   width: 700px;
   height: 700px;
@@ -282,18 +284,10 @@ nav {
   justify-content: center;
 }
 
-.o-left {
-  position: relative;
-  right: 700px;
-  width: 700px;
-  height: 700px;
-}
-
 .overlay span {
   color: #fff;
   font-size: 32px;
 }
-
 
 /* Footer */
 
