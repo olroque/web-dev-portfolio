@@ -289,6 +289,44 @@ nav {
   font-size: 32px;
 }
 
+/* Contact Page */
+
+.contact-page-info-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.contact-page-name-container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.contact-page-name-container h1 {
+  font-size: 110px;
+  font-weight: 100;
+}
+
+.contact-info-name {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.contact-info-item {
+  font-size: 44px;
+  font-weight: 100;
+}
+
+.contact-image-container img {
+  height: 1008px;
+  width: 100%;
+}
+
+.contact-image-container img {
+  height: 1008px;
+  width: 100%;
+}
+
 /* Footer */
 
 footer {
