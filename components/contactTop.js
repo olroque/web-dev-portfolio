@@ -15,7 +15,7 @@ export default function() {
                     </div>
                     <div className="contact-location">
                         <p className="contact-info-name">Location:</p>
-                        <p className="contact-info-item">Chapel Hill</p>
+                        <p className="contact-info-item">Chapel Hill,</p>
                         <p className="contact-info-item">North Carolina</p>
                     </div>
                     <div className="contact-email">
