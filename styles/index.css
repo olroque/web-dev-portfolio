@@ -186,6 +186,16 @@ nav {
   letter-spacing: 0em;
 }
 
+.all-projects-link {
+  font-size: 16px;
+  font-weight: 100;
+  margin-bottom: 55px;
+}
+
+.all-projects-link a {
+  border-bottom: 1px solid black;
+}
+
 /* Gallery */
 
 .gallery-container {

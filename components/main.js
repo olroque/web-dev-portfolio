@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function Main() {
     return (
@@ -25,6 +26,11 @@ export default function Main() {
                         To find it, we have to ask the right questions, research, rethink, re-everything. This is the only way to ensure that our clients get that simple, powerful visual solution they've been looking for.
                     </h4>
                 </div>
+            </section>
+            <section className="all-projects-link">
+                <Link href="/portfolio">
+                    All Projects
+                </Link>
             </section>
         </div>
             
