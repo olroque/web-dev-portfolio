@@ -1,10 +1,22 @@
+import { API_URL } from '../../config';
+
 import Head from 'next/head';
 import Header from '../../components/header';
 import PortfolioTop from '../../components/portfolioTop';
 import PortfolioGallery from '../../components/portfolioGallery';
 import Footer from '../../components/footer';
 
-export default function Portfolio() {
+export async function getStaticProps() {
+
+    const res = await fetch(`${API_URL}/api/projects`);
+    const data = await res.json();
+
+    return {
+        props: { projects : data }
+    }
+}
+
+export default function Portfolio({projects}) {
     return (
         <>
             <Head>
@@ -13,7 +25,10 @@ export default function Portfolio() {
             <div>
                 <Header />
                 <PortfolioTop />
-                <PortfolioGallery />
+                {/* {projects.map((project) => (
+                    <PortfolioGallery key={project.id} project={project} />
+                ))} */}
+                <PortfolioGallery projects={projects}/>
                 <Footer />
             </div>
         </>

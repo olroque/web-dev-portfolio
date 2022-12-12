@@ -1,0 +1,32 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "name": "Photography App",
+            "slug": "photography-app",
+            "description": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
+            "image": "/images/1.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Blog App",
+            "slug": "blog-app",
+            "description": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
+            "image": "/images/2.jpg"
+        },
+        {
+            "id": "3",
+            "name": "E-Commerce App",
+            "slug": "ecommerce-app",
+            "description": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
+            "image": "/images/3.jpg"
+        },
+        {
+            "id": "4",
+            "name": "News Paper App",
+            "slug": "news-paper-app",
+            "description": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
+            "image": "/images/4.jpg"
+        }
+    ]
+}
