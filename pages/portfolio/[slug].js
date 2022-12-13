@@ -24,7 +24,8 @@ export async function getStaticProps({ params:{slug}}) {
     const data = await res.json();
 
     return {
-        props: { project : data[0], }
+        props: { project : data[0], },
+        revalidate: 1,
     }
 }
 
