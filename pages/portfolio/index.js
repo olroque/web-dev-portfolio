@@ -25,9 +25,6 @@ export default function Portfolio({projects}) {
             <div>
                 <Header />
                 <PortfolioTop />
-                {/* {projects.map((project) => (
-                    <PortfolioGallery key={project.id} project={project} />
-                ))} */}
                 <PortfolioGallery projects={projects}/>
                 <Footer />
             </div>

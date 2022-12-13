@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function() {
     return (
@@ -21,7 +22,10 @@ export default function() {
             </div>
             <div className="about-image-container">
                 <div>
-                    <img src="/images/2.jpg" alt="" />
+                    <Image src="/images/2.jpg" alt="Portfolio Image"
+                        width={1600}
+                        height={930}
+                    />
                 </div>
             </div>
             <div className="about-services-container">
@@ -95,10 +99,16 @@ export default function() {
             </div>
             <div className="about-bottom-images-container">
                 <div>
-                    <img src="/images/7.jpg" alt="" />
+                    <Image src="/images/7.jpg" alt="Portfolio Image"
+                        width={900}
+                        height={1200}
+                    />
                 </div>
                 <div>
-                    <img src="/images/5.jpg" alt="" />
+                    <Image src="/images/5.jpg" alt="Portfolio Image"
+                        width={900}
+                        height={1200}
+                    />
                 </div>
             </div>
         </div>

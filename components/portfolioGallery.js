@@ -7,7 +7,7 @@ export default function({projects}) {
                 {projects.map((project) => (
                     <div className="portfolio-item">
                         <Link href={`/portfolio/${project.slug}`} key={project.id}>
-                            <img src={project.image} alt="picture of web developement project" />
+                            <img src={project.image1} alt="picture of web developement project" />
                         </Link>
                     </div>
                 ))}

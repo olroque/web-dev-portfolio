@@ -301,6 +301,42 @@ nav {
   font-size: 32px;
 }
 
+/* Portfolio Detail Page */
+
+.project-banner-img {
+  display: flex;
+}
+
+.project-banner-img a {
+  width: 100%;
+}
+
+.project-banner-img img {
+  width: 100%;
+}
+
+.project-description {
+  display: flex;
+  justify-content: right;
+  margin: 100px 0;
+}
+
+.project-description h4 {
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 1.4;
+  width: 745px;
+  height: 300px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.project-bottom-img {
+  display: flex;
+  justify-content: flex-start;
+}
+
 /* Contact Page */
 
 .contact-page-info-container {
@@ -406,6 +442,8 @@ nav {
 
 .about-bottom-images-container {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .about-bottom-images-container img {
