@@ -406,8 +406,6 @@ nav {
 
 .about-bottom-images-container {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 .about-bottom-images-container img {
