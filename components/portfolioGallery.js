@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Image from "next/image";
 
 export default function PortfolioGallery() {
     return (
@@ -6,16 +6,18 @@ export default function PortfolioGallery() {
             <section className="gallery-container">
                 <div className="portfolio-gallery-row">
                     <div className="portfolio-item">
-                        <Link href="/">
-                            <img src="/images/5.jpg" alt="picture of web developement project" />
-                            <div className="overlay">
+                        <a href="https://www.omarroquevisuals.com/" target={"blank"}>
+                            <Image src="/images/5.jpg" alt="picture of web developement project"
+                                width={700}
+                                height={700} />
+                            {/* <div className="overlay">
                                 <span>
                                     Project Number 1
                                 </span>
-                            </div>
-                        </Link>
+                            </div> */}
+                        </a>
                     </div>
-                    <div className="portfolio-item">
+                    {/* <div className="portfolio-item">
                         <Link href="/">
                             <img src="/images/12.jpg" alt="picture of web developement project" />
                             <div className="overlay">
@@ -46,7 +48,7 @@ export default function PortfolioGallery() {
                                 </span>
                             </div>
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </div>

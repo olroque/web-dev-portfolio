@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Main() {
     return (
@@ -10,7 +11,7 @@ export default function Main() {
             </section>
             <section className="picture-and-job-title">
                 <div className="picture-container">
-                    <img src="/images/13.jpg" alt="Picture of Omar" className="creator-pic" />
+                    <Image src="/images/13.jpg" alt="Picture of Omar" className="creator-pic" width={800} height={600}/>
                 </div>
                 <div className="job-title-container">
                     <p className="job-title">

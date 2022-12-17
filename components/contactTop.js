@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function ContactTop() {
     return (
@@ -25,7 +26,7 @@ export default function ContactTop() {
                 </div>
                 <div className="contact-image-container">
                     <div>
-                        <img src="/images/2.jpg" alt="" />
+                        <Image src="/images/2.jpg" alt="Portfolio Image" width={1900} height={1000} />
                     </div>
                 </div>
             </div>
