@@ -37,7 +37,7 @@ export default function AboutTop() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                                Im a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
                             </p>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ export default function AboutTop() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                                Im a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
                             </p>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ export default function AboutTop() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                                Im a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
                             </p>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ export default function AboutTop() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                                Im a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
                             </p>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ export default function AboutTop() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                                Im a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
                             </p>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ export default function AboutTop() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                                Im a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
                             </p>
                         </div>
                     </div>
