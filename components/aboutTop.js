@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 export default function AboutTop() {
     return (
@@ -22,14 +21,91 @@ export default function AboutTop() {
             </div>
             <div className="about-image-container">
                 <div>
-                    <Image src="/images/2.jpg" alt="Portfolio Image"
-                        width={1600}
-                        height={930}
-                    />
+                    <img src="/images/2.jpg" alt="" />
                 </div>
             </div>
             <div className="about-services-container">
-
+                <div className="services-name">
+                    <h1>
+                        Services
+                    </h1>
+                </div>
+                <div className="services-items-container">
+                    <div className="service-item">
+                        <div className="service-item-name">
+                            <h3>Front End</h3>
+                        </div>
+                        <div className="service-item-description">
+                            <p>
+                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="service-item">
+                        <div className="service-item-name">
+                            <h3>Back End</h3>
+                        </div>
+                        <div className="service-item-description">
+                            <p>
+                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="service-item">
+                        <div className="service-item-name">
+                            <h3>Databases</h3>
+                        </div>
+                        <div className="service-item-description">
+                            <p>
+                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="service-item">
+                        <div className="service-item-name">
+                            <h3>UI/UX</h3>
+                        </div>
+                        <div className="service-item-description">
+                            <p>
+                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="service-item">
+                        <div className="service-item-name">
+                            <h3>Graphics</h3>
+                        </div>
+                        <div className="service-item-description">
+                            <p>
+                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="service-item">
+                        <div className="service-item-name">
+                            <h3>Photography</h3>
+                        </div>
+                        <div className="service-item-description">
+                            <p>
+                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="about-bottom-images-container">
+                <div>
+                    <Image src="/images/7.jpg" alt="Portfolio Image"
+                        width={900}
+                        height={1200}
+                    />
+                </div>
+                <div>
+                    <Image src="/images/5.jpg" alt="Portfolio Image"
+                        width={900}
+                        height={1200}
+                    />
+                </div>
             </div>
         </div>
     )

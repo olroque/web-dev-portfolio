@@ -301,42 +301,6 @@ nav {
   font-size: 32px;
 }
 
-/* Portfolio Detail Page */
-
-.project-banner-img {
-  display: flex;
-}
-
-.project-banner-img a {
-  width: 100%;
-}
-
-.project-banner-img img {
-  width: 100%;
-}
-
-.project-description {
-  display: flex;
-  justify-content: right;
-  margin: 100px 0;
-}
-
-.project-description h4 {
-  font-size: 32px;
-  font-weight: 100;
-  line-height: 1.4;
-  width: 745px;
-  height: 300px;
-  margin: 0;
-  display: flex;
-  align-items: center;
-}
-
-.project-bottom-img {
-  display: flex;
-  justify-content: flex-start;
-}
-
 /* Contact Page */
 
 .contact-page-info-container {
@@ -399,6 +363,54 @@ nav {
 }
 
 .about-image-container img {
+  width: 100%;
+}
+
+.about-services-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.about-services-container h1 {
+  font-size: 110px;
+  font-weight: 100;
+}
+
+.services-name {
+  margin-bottom: 35px;
+}
+
+.service-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px #000 solid;
+  height: 225px;
+}
+
+.service-item h3 {
+  font-size: 44px;
+  font-weight: 100;
+}
+
+.service-item p {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 2rem;
+}
+
+.service-item-description {
+  width: 571px;
+  margin-right: 5%;
+}
+
+.about-bottom-images-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-bottom-images-container img {
   width: 100%;
 }
 

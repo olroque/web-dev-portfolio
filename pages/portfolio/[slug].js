@@ -2,7 +2,6 @@ import { API_URL } from "../../config";
 
 import Link from "next/link";
 import Header from '../../components/header';
-import PortfolioDetails from "../../components/portfolioDetails";
 import Footer from '../../components/footer';
 
 export async function getStaticPaths() {
@@ -34,7 +33,8 @@ export default function ProjectItem({ project }) {
     return (
         <div className="root">
             <Header />
-            <PortfolioDetails key={project.id} project={project} />
+            <h1>Slug:</h1>
+            <h2>{ project.slug }</h2>
             <Footer />
         </div>
     )

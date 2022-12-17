@@ -5,36 +5,28 @@
             "name": "Photography App",
             "slug": "photography-app",
             "description": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
-            "link": "https://www.omarroquevisuals.com/",
-            "image1": "/images/1.jpg",
-            "image2": "/images/5.jpg"
+            "image": "/images/1.jpg"
         },
         {
             "id": "2",
             "name": "Blog App",
             "slug": "blog-app",
             "description": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
-            "link": "https://www.omarroquevisuals.com/",
-            "image1": "/images/2.jpg",
-            "image2": "/images/6.jpg"
+            "image": "/images/2.jpg"
         },
         {
             "id": "3",
             "name": "E-Commerce App",
             "slug": "ecommerce-app",
             "description": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
-            "link": "https://www.omarroquevisuals.com/",
-            "image1": "/images/3.jpg",
-            "image2": "/images/7.jpg"
+            "image": "/images/3.jpg"
         },
         {
             "id": "4",
             "name": "News Paper App",
             "slug": "news-paper-app",
             "description": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
-            "link": "https://www.omarroquevisuals.com/",
-            "image1": "/images/4.jpg",
-            "image2": "/images/8.jpg"
+            "image": "/images/4.jpg"
         }
     ],
     "id": "1"

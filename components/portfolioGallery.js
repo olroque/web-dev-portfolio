@@ -1,6 +1,22 @@
 import Link from "next/link";
 
-// export default function PortfolioGallery({projects}) {
+export default function({projects}) {
+    return (
+        <div className="root">
+            <section className="portfolio-gallery-container">
+                {projects.map((project) => (
+                    <div className="portfolio-item">
+                        <Link href={`/portfolio/${project.slug}`} key={project.id}>
+                            <img src={project.image1} alt="picture of web developement project" />
+                        </Link>
+                    </div>
+                ))}
+            </section>
+        </div>
+    )
+}
+
+// export default function() {
 //     return (
 //         <div className="root">
 //             <section className="portfolio-gallery-container">
