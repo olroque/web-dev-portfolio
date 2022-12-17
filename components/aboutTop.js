@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function() {
+export default function AboutTop() {
     return (
         <div className="root">
             <div className="about-top-container">
@@ -16,7 +16,7 @@ export default function() {
                         <br />
                         Founded by Aisha Blake, DOLD specializes in
                         <br />
-                        a wide range of project scales. From the private to the public sectors, from corporates to SMBs, we're ready to take on any challenge.
+                        a wide range of project scales. From the private to the public sectors, from corporates to SMBs, were ready to take on any challenge.
                     </p>
                 </div>
             </div>
@@ -41,7 +41,7 @@ export default function() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                                Im a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
                             </p>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ export default function() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                                Im a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
                             </p>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ export default function() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                                Im a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
                             </p>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ export default function() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                                Im a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
                             </p>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ export default function() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                                Im a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
                             </p>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ export default function() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+                                Im a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
                             </p>
                         </div>
                     </div>

@@ -25,7 +25,8 @@ export default function Portfolio({projects}) {
             <div>
                 <Header />
                 <PortfolioTop />
-                <PortfolioGallery projects={projects}/>
+                <PortfolioGallery />
+                {/* <PortfolioGallery projects={projects}/> */}
                 <Footer />
             </div>
         </>

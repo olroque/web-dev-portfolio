@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function({ project }) {
+export default function PortfolioDetails({ project }) {
     return (
         <div className="root">
             <div className="project-banner-img">
@@ -14,7 +14,7 @@ export default function({ project }) {
             <div className="project-description">
                 <h4>
                     <span>
-                        This is where the project description goes. Give an overview or go in depth - what it's all about, what inspired you, how you created it, or anything else you'd like visitors to know. To add Project descriptions, go to Manage Projects.
+                        This is where the project description goes. Give an overview or go in depth - what its all about, what inspired you, how you created it, or anything else youd like visitors to know. To add Project descriptions, go to Manage Projects.
                     </span>
                 </h4>
             </div>

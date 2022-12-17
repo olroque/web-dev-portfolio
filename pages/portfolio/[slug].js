@@ -29,7 +29,7 @@ export async function getStaticProps({ params:{slug}}) {
     }
 }
 
-export default function({ project }) {
+export default function ProjectItem({ project }) {
     console.log(project)
     return (
         <div className="root">

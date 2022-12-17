@@ -1,5 +1,5 @@
 
-export default function() {
+export default function ContactTop() {
     return (
         <div className="root">
             <div className="contact-page-container">

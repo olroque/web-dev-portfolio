@@ -1,5 +1,5 @@
 
-export default function() {
+export default function PortfolioTop() {
     return (
         <div className="root">
             <section className="portfolio-top-container">
