@@ -443,3 +443,131 @@ footer span {
   font-weight: 100;
   letter-spacing: 2px;
 }
+
+/* Media Query */
+
+@media (max-width: 1130px) {
+
+  /* Main Page */
+
+  .name-banner-container {
+    margin-bottom: 100px;
+  }
+
+  .picture-and-job-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+  }
+
+  .picture-and-job-title .picture-container {
+    margin: 0;
+    padding: 0;
+    position: static;
+  }
+
+  .picture-and-job-title .job-title-container {
+    margin: 0;
+    padding: 0;
+    position: static;
+    display: flex;
+  }
+
+  .picture-and-job-title img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 964px) {
+
+  /* Main Page */
+
+  .name-banner-container h1 {
+    text-align: center;
+    font-size: 90px;
+  }
+
+  .picture-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .job-title-container p {
+    text-align: center;
+    font-size: 90px;
+  }
+
+  .creator-description-container {
+    width: auto;
+  }
+
+  .creator-description-container div {
+    width: auto;
+  }
+
+  .creator-description {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 804px) {
+
+  /* Main Page */
+
+  .creator-description-container {
+    width: auto;
+  }
+
+  .creator-description-container div {
+    width: auto;
+  }
+}
+
+@media (max-width: 589px) {
+
+  /* Main Page */
+
+  body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .name-banner-container {
+    margin-bottom: 40px;
+  }
+
+  .name-banner-container h1 {
+    font-size: 70px;
+    text-align: left;
+  }
+
+  .picture-container {
+    width: 100%;
+  }
+
+  .picture-container img {
+    width: 100%;
+  }
+
+  .job-title-container p {
+    text-align: right;
+    font-size: 39px;
+    line-height: 3rem;
+    text-align: center;
+  }
+
+  .creator-description {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 402px) {
+
+  /* Main Page */
+
+  .job-title-container p {
+    font-size: 35px;
+  }
+}
