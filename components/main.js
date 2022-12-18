@@ -15,7 +15,7 @@ export default function Main() {
                 </div>
                 <div className="job-title-container">
                     <p className="job-title">
-                        UX/UI Designer &amp;<br/>Web Developer
+                        UX/UI Designer &amp; <br/ >Web Developer
                     </p>
                 </div>
             </section>

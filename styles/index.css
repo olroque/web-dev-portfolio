@@ -477,6 +477,23 @@ footer span {
   .picture-and-job-title img {
     width: 80%;
   }
+
+  /* Contact Page */
+
+  .contact-page-info-container {
+    display: block;
+    align-items: center;
+    margin-bottom: 100px;
+    line-height: .75rem;
+  }
+
+  .contact-page-info-container p{
+    font-size: 24px;
+  }
+
+  .contact-item {
+    margin-bottom: 60px;
+  }
 }
 
 @media (max-width: 964px) {
@@ -521,6 +538,16 @@ footer span {
 
   .creator-description-container div {
     width: auto;
+  }
+
+  /* Contact Page */
+
+  .contact-info-item {
+    font-size: 24px;
+  }
+
+  .contact-page-name-container h1 {
+    font-size: 50px;
   }
 }
 

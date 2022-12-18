@@ -10,16 +10,16 @@ export default function ContactTop() {
                     </div>
                 </div>
                 <div className="contact-page-info-container">
-                    <div className="contact-phone">
+                    <div className="contact-phone contact-item">
                         <p className="contact-info-name">Phone:</p>
                         <p className="contact-info-item">252-665-3363</p>
                     </div>
-                    <div className="contact-location">
+                    <div className="contact-location contact-item">
                         <p className="contact-info-name">Location:</p>
                         <p className="contact-info-item">Chapel Hill</p>
                         <p className="contact-info-item">North Carolina</p>
                     </div>
-                    <div className="contact-email">
+                    <div className="contact-email contact-item">
                         <p className="contact-info-name">Email:</p>
                         <p className="contact-info-item">olroque@yahoo.com</p>
                     </div>
