@@ -1,57 +1,7 @@
-:root {
-  --color_0: 255,255,255;
-  --color_27: 129,140,190;
-  --color_1: 255,255,255;
-  --color_2: 0,0,0;
-  --color_3: 237,28,36;
-  --color_4: 0,136,203;
-  --color_5: 255,203,5;
-  --color_6: 114,114,114;
-  --color_7: 176,176,176;
-  --color_8: 255,255,255;
-  --color_28: 97,105,143;
-  --color_9: 114,114,114;
-  --color_10: 176,176,176;
-  --color_11: 255,255,255;
-  --color_12: 232,230,230;
-  --color_13: 199,199,199;
-  --color_14: 89,89,89;
-  --color_15: 0,0,0;
-  --color_16: 229,191,182;
-  --color_17: 202,153,141;
-  --color_18: 176,90,69;
-  --color_29: 65,70,95;
-  --color_19: 117,60,46;
-  --color_20: 59,30,23;
-  --color_21: 203,209,205;
-  --color_22: 156,164,158;
-  --color_23: 107,118,110;
-  --color_24: 71,79,73;
-  --color_25: 36,39,37;
-  --color_30: 32,35,48;
-  --color_31: 255,224,196;
-  --color_32: 255,193,136;
-  --color_33: 191,145,102;
-  --color_34: 128,97,68;
-  --color_35: 64,48,34;
-  --font_0: normal normal normal 110px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
-  --font_1: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
-  --font_2: normal normal normal 65px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
-  --font_3: normal normal normal 44px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
-  --font_4: normal normal normal 32px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
-  --font_5: normal normal normal 25px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
-  --font_6: normal normal normal 20px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
-  --font_7: normal normal normal 18px/1.5em helvetica-w01-light,helvetica-w02-light,sans-serif;
-  --font_8: normal normal normal 16px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
-  --font_9: normal normal normal 14px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
-  --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
-}
-
 * {
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
-
 }
 
 html,
@@ -60,26 +10,10 @@ body {
   font-family: Arial,Helvetica,sans-serif;
 }
 
-h4 {
-  display: block;
-  margin-block-start: 1.33em;
-  margin-block-end: 1.33em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
 a {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
-}
-
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 ol, ul {
@@ -166,9 +100,9 @@ nav {
 .job-title-container {
   position: relative;
   text-align: right;
-  line-height: 1.2em;
+  line-height: 8rem;
   font-size: 110px;
-  top: -550px;
+  top: -450px;
   z-index: 1;
 }
 
@@ -178,12 +112,13 @@ nav {
 
 .creator-description-container div {
   width: 773px;
+  margin-bottom: 40px;
 }
 
 .creator-description {
-  font: var(--font_4);
-  color: rgb(var(--color_15));
-  letter-spacing: 0em;
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 2.8rem;
 }
 
 .all-projects-link {
@@ -359,6 +294,7 @@ nav {
   font-weight: 100;
   display: flex;
   justify-content: flex-end;
+  margin-top: 50px;
 }
 
 .about-info p {
@@ -367,6 +303,7 @@ nav {
 
 .about-image-container img {
   width: 100%;
+  height: auto;
 }
 
 .about-services-container {
@@ -472,7 +409,7 @@ footer span {
   }
 
   .picture-and-job-title .job-title-container {
-    margin: 0;
+    margin: 50px 0 35px;
     padding: 0;
     position: static;
     display: flex;
@@ -480,6 +417,16 @@ footer span {
 
   .picture-and-job-title img {
     width: 80%;
+  }
+
+  .job-title-container p {
+    text-align: center;
+  }
+
+  /* About Page */
+
+  .about-services-container {
+    margin-top: 40px;
   }
 
   /* Contact Page */
@@ -512,6 +459,10 @@ footer span {
 
   .about-services-container {
     margin-bottom: 50px;
+  }
+
+  .service-item-name {
+    margin-bottom: 15px;
   }
 
 }
@@ -624,6 +575,10 @@ footer span {
     line-height: 2rem;
   }
 
+  .service-item-description {
+    width: auto;
+  }
+
   .about-bottom-images-container img {
     max-width: 500px;
     height: auto;
@@ -685,6 +640,20 @@ footer span {
     margin-top: 0;
     margin-bottom: 35px;
   }
+}
+
+@media (max-width: 500px) {
+  
+  /* About Page */
+
+  .service-item {
+    width: 100%;
+  }
+
+  .service-item-description {
+    width: 350px;
+  }
+
 }
 
 @media (max-width: 402px) {
