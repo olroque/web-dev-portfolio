@@ -4,6 +4,13 @@ export default function Footer() {
     return (
         <footer className="root">
             <div className="border-line">
+                <div className="footer-logo-mobile">
+                    <p>
+                        <Link href="/">
+                            <span className="logo">ROQUE</span>
+                        </Link>
+                    </p>
+                </div>
                 <section className="footer-content-container">
                     <div className="footer-col">
                         <ul>
