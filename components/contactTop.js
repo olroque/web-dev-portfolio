@@ -26,7 +26,7 @@ export default function ContactTop() {
                 </div>
                 <div className="contact-image-container">
                     <div>
-                        <Image src="/images/2.jpg" alt="Portfolio Image" width={1900} height={1000} />
+                        <Image src="/images/12.jpg" alt="Portfolio Image" width={1900} height={1000} />
                     </div>
                 </div>
             </div>

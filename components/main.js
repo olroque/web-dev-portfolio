@@ -11,7 +11,7 @@ export default function Main() {
             </section>
             <section className="picture-and-job-title">
                 <div className="picture-container">
-                    <Image src="/images/13.jpg" alt="Picture of Omar" className="creator-pic" width={800} height={600}/>
+                    <Image src="/images/15.jpg" alt="Picture of Omar" className="creator-pic" width={800} height={600}/>
                 </div>
                 <div className="job-title-container">
                     <p className="job-title">
