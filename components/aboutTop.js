@@ -96,14 +96,6 @@ export default function AboutTop() {
                     </div>
                 </div>
             </div>
-            <div className="about-bottom-images-container">
-                <div>
-                    <Image src="/images/19.jpg" alt="Portfolio Image" width={900} height={1200} />
-                </div>
-                <div>
-                    <Image src="/images/20.jpg" alt="Portfolio Image" width={900} height={1200} />
-                </div>
-            </div>
         </div>
     )
 }
