@@ -6,7 +6,7 @@ export default function PortfolioGallery() {
             <section className="gallery-container">
                 <div className="porfolio-item-container">
                     <div className="portfolio-item-title">
-                        <h2>Photographer's App</h2>
+                        <h2>Photographer&#39;s App</h2>
                     </div>
                     <div className="portfolio-gallery-item-row">
                         <div className="portfolio-item">
