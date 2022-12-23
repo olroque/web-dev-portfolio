@@ -22,7 +22,7 @@ export default function AboutTop() {
             </div>
             <div className="about-image-container">
                 <div>
-                    <Image src="/images/16.jpg" alt="Portfolio Image" 
+                    <Image src="/images/32.jpg" alt="Portfolio Image" 
                         width={1900}
                         height={900} />
                 </div>

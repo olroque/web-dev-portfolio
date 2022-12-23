@@ -15,21 +15,21 @@ export default function Header() {
                     {/* Nav Links */}
                     <div className="nav-links-container">
                         <ul className="nav-links">
-                            <il className="nav-link">
+                            <li className="nav-link">
                                 <Link href="/portfolio">
                                     <p className="nav-link-item">Portfolio</p>
                                 </Link>
-                            </il>
-                            <il className="nav-link">
+                            </li>
+                            <li className="nav-link">
                                 <Link href="/about">
                                     <p className="nav-link-item">About</p>
                                 </Link>
-                            </il>
-                            <il className="nav-link">
+                            </li>
+                            <li className="nav-link">
                                 <Link href="/contact">
                                     <p className="nav-link-item">Contact</p>
                                 </Link>
-                            </il>
+                            </li>
                         </ul>
                     </div>
                 </nav>

@@ -11,7 +11,7 @@ export default function PortfolioGallery() {
                     <div className="portfolio-gallery-item-row">
                         <div className="portfolio-item">
                             <a href="https://www.omarroquevisuals.com/" target={"blank"}>
-                                <Image src="/images/5.jpg" alt="picture of web developement project"
+                                <Image src="/images/29.jpg" alt="picture of web developement project"
                                     width={700}
                                     height={700} />
                                 {/* <div className="overlay">
