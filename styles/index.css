@@ -70,6 +70,7 @@ nav {
   width: calc(100% - 40px - 40px);
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
 }
 
 .name-banner-container {
@@ -150,7 +151,7 @@ nav {
 .gallery-row {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 150px;
+  margin-bottom: 10%;
 }
 
 .gallery-row:last-of-type {
@@ -184,21 +185,14 @@ nav {
 .homepage-hero-img img{
   width: 100vw;
   height: auto;
-  margin-bottom: 100px;
 }
 
-/* Portfolio */
+/* Portfolio Page */
 
 .portfolio-top-container {
   display: flex;  
   justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 75px;
-}
-
-.mid-row {
-  background-color: #e2e2ac;
-  width: 100vw;
+  margin-bottom: 12%;
 }
 
 .portfolio-title {
@@ -215,7 +209,7 @@ nav {
 .portfolio-description {
   display: flex;
   justify-content: center;
-  width: 700px;
+  max-width: 700px;
 }
 
 .portfolio-description h4 {
@@ -298,7 +292,7 @@ nav {
 }
 
 .portfolio-item img {
-  width: 70%;
+  width: 80%;
   height: auto;
 }
 
@@ -327,7 +321,6 @@ nav {
 }
 
 .contact-page-name-container {
-  margin-top: 50px;
   margin-bottom: 100px;
 }
 
@@ -359,7 +352,6 @@ nav {
 /* About Page */
 
 .about-top-container {
-  margin-top: 50px;
   margin-bottom: 100px;
 }
 
@@ -391,8 +383,8 @@ justify-content: center;}
 }
 
 .about-services-container {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .about-services-container h1 {
@@ -431,8 +423,11 @@ justify-content: center;}
 /* Footer */
 
 footer {
-  height: 300px;
-  margin-top: 130px;
+  margin-bottom: 10%;
+}
+
+footer.root {
+  margin-top: 30%;
 }
 
 .border-line {
@@ -444,7 +439,7 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
-  margin-bottom: 90px;
+  margin-bottom: 8%;
 }
 
 footer span {
@@ -507,12 +502,6 @@ footer span {
     text-align: center;
   }
 
-  /* About Page */
-
-  .about-services-container {
-    margin-top: 40px;
-  }
-
   /* Contact Page */
 
   .contact-page-info-container {
@@ -530,8 +519,10 @@ footer span {
 
 @media (max-width: 1081px) {
 
+  /* Portfolio Page` */
+
   .portfolio-gallery-item-row div:first-of-type {
-    margin-bottom: 40px;
+    margin-bottom: 10%;
   }
 
   .project-link {
@@ -562,10 +553,6 @@ footer span {
 
   .service-item:last-of-type {
     padding-bottom: 0;
-  }
-
-  .about-services-container {
-    margin-bottom: 50px;
   }
 
   .service-item-name {
@@ -618,6 +605,25 @@ footer span {
     width: auto;
   }
 
+  /* Portfolio Page */
+
+  .portfolio-title span {
+    font-size: 50px;
+  }
+
+  .portfolio-description {
+    height: fit-content;
+    display: flex;
+  }
+
+  .portfolio-description span {
+    font-size: 24px;
+  }
+
+  .portfolio-item-title h2 {
+    font-size: 35px;
+  }
+
   /* About Page */ 
 
   .about-bottom-images-container div {
@@ -647,6 +653,24 @@ footer span {
 
 @media (max-width: 629px) {
 
+    /* Portfolio Page */
+
+    .portfolio-title span {
+      font-size: 50px;
+    }
+  
+    .portfolio-description span {
+      font-size: 24px;
+    }
+  
+    .portfolio-item-title h2 {
+      font-size: 28px;
+    }
+
+    .portfolio-item-description p {
+      font-size: 20px;
+    }
+  
   /* About Page */
 
   .about-top-container {
@@ -667,10 +691,6 @@ footer span {
   
   .about-info p {
     width: auto;
-  }
-
-  .about-services-container {
-    margin-top: 35px;
   }
 
   .services-name h1 {
@@ -767,11 +787,26 @@ footer span {
 
 }
 
+@media (max-width: 430px) {
+
+  /* Portfolio Page */
+
+  .portfolio-description span{
+    line-height: 2rem; 
+    font-size: 20px;
+  }  
+}
+
 @media (max-width: 402px) {
 
   /* Main Page */
 
   .job-title-container p {
     font-size: 35px;
+  }
+
+  /* Portfolio Page */
+  .portfolio-item-title h2 {
+    font-size: 25px;
   }
 }
