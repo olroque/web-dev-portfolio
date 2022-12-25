@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="root">
+        <footer>
             <div className="border-line">
                 <div className="footer-logo-mobile">
                     <p>

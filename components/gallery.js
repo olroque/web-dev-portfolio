@@ -25,7 +25,7 @@ export default function Gallery() {
                             </p>
                         </div>
                     </div>
-                    <div className="gallery-row">
+                    <div className="gallery-row main-gallery-col-reverse">
                         <div className="gallery-item gallery-item-text">
                             <p>
                                 Modern Design
