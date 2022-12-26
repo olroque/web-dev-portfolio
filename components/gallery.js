@@ -19,6 +19,7 @@ export default function Gallery() {
                                 <Image src="/images/28.jpg" alt="picture of web developement project" width={1400}  height={900}/>
                             </Link>
                         </div>
+                        <div className="border-line-main-gallery"></div>
                         <div className="gallery-item gallery-item-text">
                             <p>
                                 Mobile Responsive Websites
@@ -31,6 +32,7 @@ export default function Gallery() {
                                 Modern Design
                             </p>
                         </div>
+                        <div className="border-line-main-gallery"></div>
                         <div className="gallery-item portrait-pic">
                             <Link href="/">
                                 <Image src="/images/29.jpg" alt="picture of web developement project" width={1400}  height={900}/>
@@ -43,6 +45,7 @@ export default function Gallery() {
                                 <Image src="/images/27.jpg" alt="picture of web developement project" width={1400}  height={900}/>
                             </Link>
                         </div>
+                        <div className="border-line-main-gallery"></div>
                         <div className="gallery-item gallery-item-text">
                             <p>
                                 Mobile Responsive Websites

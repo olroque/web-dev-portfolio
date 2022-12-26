@@ -33,11 +33,19 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 55px;
-  margin-top: 5%;
+  padding-top: 2.5%;
   margin-bottom: 5%;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.collapsible-menu {
+  display: none;
+}
+
+.nav-menu-icon {
+  display: none;
 }
 
 .logo {
@@ -105,7 +113,6 @@ nav {
   line-height: 8rem;
   font-size: 110px;
   top: -450px;
-  z-index: 1;
 }
 
 .job-title {
@@ -157,6 +164,10 @@ nav {
 
 .gallery-row:last-of-type {
   margin-bottom: 0;
+}
+
+.border-line-main-gallery {
+  display: none;
 }
 
 .gallery-item {
@@ -430,8 +441,8 @@ justify-content: center;}
 /* Footer */
 
 footer {
-  margin-bottom: 10%;
-  margin-top: 15%;
+  margin-bottom: 5%;
+  margin-top: 10%;
 }
 
 .border-line {
@@ -778,6 +789,59 @@ footer span {
 }
 
 @media (max-width: 500px) {
+
+  /* Navbar */
+
+  .site-header {
+    height: 55px;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 0 5%;
+  }
+
+  .nav-links-container {
+    display: none;
+  }
+
+  .nav-menu-icon {
+    display: block;
+    width: 25px;
+    height: 25px;
+    color: #000;
+  }
+
+  /* Collapsible Menu */
+
+  #test {
+    display: none;
+    overflow-y: hidden;
+    scroll-behavior: none;
+    position: fixed;
+  }
+
+  .collapsible-menu {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .collapsible-menu ul{
+    padding-top: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .collapsible-menu ul li {
+    margin: 0 0 30%;
+  }
   
   /* About Page */
 
@@ -793,11 +857,14 @@ footer span {
 
 @media (max-width: 430px) {
 
+  footer {
+    margin-bottom: 10%;
+    margin-top: 20%;
+  }
+
   /* Gallery - Main Page */
 
   .gallery-row {
-    border-top: solid #c5c5c5 1px;
-    padding-top: 10%;
     flex-direction: column-reverse;
     margin-bottom: 20%;
   }
@@ -805,6 +872,13 @@ footer span {
   .gallery-row:first-of-type {
     border-top: none;
     padding-top: 0;
+  }
+
+  .border-line-main-gallery {
+    display: block;
+    border-top: solid #c5c5c5 1px;
+    padding-bottom: 10%;
+    width: 15%;
   }
 
   .main-gallery-col-reverse {
