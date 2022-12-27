@@ -187,10 +187,6 @@ nav {
   text-align: center;
 }
 
-.gallery-item a {
-  display: contents;
-}
-
 .portrait-pic img{
   max-width: 35%;
   height: auto;

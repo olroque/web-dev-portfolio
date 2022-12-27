@@ -8,16 +8,12 @@ export default function Gallery() {
                 <section className="gallery-container">
                     <div className="gallery-row">
                         <div className="gallery-item landscape-pic homepage-hero-img">
-                            <Link href="/">
-                                <Image src="/images/26.jpg" alt="picture of web developement project" width={1400}  height={900}/>
-                            </Link>
+                            <Image src="/images/26.jpg" alt="picture of web developement project" width={1400}  height={900}/>
                         </div>
                     </div>
                     <div className="gallery-row">
                         <div className="gallery-item portrait-pic">
-                            <Link href="/">
-                                <Image src="/images/28.jpg" alt="picture of web developement project" width={1400}  height={900}/>
-                            </Link>
+                            <Image src="/images/28.jpg" alt="picture of web developement project" width={1400}  height={900}/>
                         </div>
                         <div className="border-line-main-gallery"></div>
                         <div className="gallery-item gallery-item-text">
@@ -34,16 +30,12 @@ export default function Gallery() {
                         </div>
                         <div className="border-line-main-gallery"></div>
                         <div className="gallery-item portrait-pic">
-                            <Link href="/">
-                                <Image src="/images/29.jpg" alt="picture of web developement project" width={1400}  height={900}/>
-                            </Link>
+                            <Image src="/images/29.jpg" alt="picture of web developement project" width={1400}  height={900}/>
                         </div>
                     </div>
                     <div className="gallery-row">
                         <div className="gallery-item portrait-pic">
-                            <Link href="/">
-                                <Image src="/images/27.jpg" alt="picture of web developement project" width={1400}  height={900}/>
-                            </Link>
+                            <Image src="/images/27.jpg" alt="picture of web developement project" width={1400}  height={900}/>
                         </div>
                         <div className="border-line-main-gallery"></div>
                         <div className="gallery-item gallery-item-text">
