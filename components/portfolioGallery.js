@@ -24,8 +24,10 @@ export default function PortfolioGallery() {
                         <div className="portfolio-item-description">
                             <div>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsam provident nostrum neque incidunt. Suscipit consectetur cupiditate aut laboriosam expedita cumque, rem necessitatibus, eos non sint illum saepe repudiandae quisquam.
-                                    Nihil reprehenderit necessitatibus hic accusamus ipsum similique assumenda. Temporibus cumque, officia eius quos, nihil vitae odio consectetur harum aliquid sequi rerum nisi tenetur earum accusantium fugit totam molestias minus aut!
+                                A photography portfolio website, where I showcase my best work and share my passion for photography with the world. Built from scratch using HTML, CSS, and JavaScript, my website is designed to be visually striking and easy to navigate, so you can easily browse through my portfolio and learn more about my work. 
+                                <br/>
+                                <br/>
+                                On my website, you&#39;ll find a variety of my photographs, organized into different galleries by theme, style, and subject matter. I&#39;ve also included information about myself and my approach to photography, as well as links to my social media profiles and contact information.
                                 </p>
                             </div>
                             <div className="project-link">

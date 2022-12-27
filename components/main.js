@@ -17,17 +17,15 @@ export default function Main() {
                     <p className="job-title">
                         Full Stack Developer &amp; <br/> Web Designer
                     </p>
-                    {/* <p className="job-title">
-                        UX/UI Designer &amp; <br/ >Web Developer
-                    </p> */}
                 </div>
             </section>
             <section className="creator-description-container">
                 <div>
                     <h4 className="creator-description">
-                        DOLD means &#39;hidden&#39; is Swedish.
-                        Why hidden, you ask? Our aim is to uncover the simple, strong, undeniable truth of each brand.
-                        To find it, we have to ask the right questions, research, rethink, re-everything. This is the only way to ensure that our clients get that simple, powerful visual solution theyve been looking for.
+                    Welcome my friend! I&#39;m glad you&#39;re here, and I hope you enjoy taking a look at some of my work. This is a collection of projects that I am particularly proud of, and I hope it gives you a sense of my skills, style, and passions. 
+                    <br/>
+                    <br/>
+                    Whether you&#39;re here to learn more about me and my work, or just to browse around and see what I&#39;ve been up to, I&#39;m happy to have you. 
                     </h4>
                 </div>
             </section>

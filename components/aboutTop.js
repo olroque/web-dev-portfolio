@@ -11,12 +11,10 @@ export default function AboutTop() {
                 </div>
                 <div className="about-info">
                     <p>
-                        This is DOLD. That sweet spot between smart and foolish, fun and fine, monochromatic and multicolor, flawless design and casual beauty. 
+                        I&apos;m Omar, a web developer with a flair for creating beautiful and user&#45;friendly websites. My skills in technologies like HTML, CSS, JavaScript, and various frameworks give me the tools to bring your project to life in the most stylish and innovative way possible.
                         <br />
                         <br />
-                        Founded by Aisha Blake, DOLD specializes in
-                        <br />
-                        a wide range of project scales. From the private to the public sectors, from corporates to SMBs, were ready to take on any challenge.
+                        I hope you enjoy exploring my website and portfolio, and I&#39;m excited to bring my skills and creativity to your next project. Let&#39;s make something amazing together!
                     </p>
                 </div>
             </div>
@@ -40,7 +38,7 @@ export default function AboutTop() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                Im a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
+                                Solid foundation in front end technologies including HTML, CSS, JavaScript, React, and NextJS. These skills enable me to create visually appealing and user&#45;friendly web applications, making me a valuable asset to any project.
                             </p>
                         </div>
                     </div>
@@ -50,7 +48,7 @@ export default function AboutTop() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                Im a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
+                                Expertise in languages including Python, C#, and C++. My skills allow me to create efficient systems for web applications. I have strong problem-solving abilities and a talent for critical and creative thinking. I am constantly seeking new learning opportunities to grow as a developer.
                             </p>
                         </div>
                     </div>
@@ -60,7 +58,7 @@ export default function AboutTop() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                Im a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
+                                Experience in databases such as Postgres, MongoDB, SQLite, and SQL, I have a strong understanding of how to design and maintain efficient and reliable data storage systems.
                             </p>
                         </div>
                     </div>
@@ -70,17 +68,17 @@ export default function AboutTop() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                Im a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
+                                As a connoisseur of UI and UX design principles, I am able to create intuitive and visually appealing user interfaces that deliver a seamless and enjoyable user experience. I am passionate about creating engaging and intuitive interfaces and am always looking for ways to improve the user experience.
                             </p>
                         </div>
                     </div>
                     <div className="service-item">
                         <div className="service-item-name">
-                            <h3>Graphics</h3>
+                            <h3>Design</h3>
                         </div>
                         <div className="service-item-description">
                             <p>
-                                Im a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
+                                A developer with a strong background in web design and graphic design. I am skilled in using design tools such as Adobe Creative Suite. I have a keen eye for aesthetics and am able to incorporate design elements that effectively communicate the desired message and brand identity. I am passionate about creating engaging and effective designs.
                             </p>
                         </div>
                     </div>
@@ -90,7 +88,7 @@ export default function AboutTop() {
                         </div>
                         <div className="service-item-description">
                             <p>
-                                Im a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.
+                                My photography skills also give me an understanding of lighting and color theory, which I apply to my web design work to create visually striking and effective designs. I am passionate about creating web experiences that are both functional and aesthetically pleasing.
                             </p>
                         </div>
                     </div>

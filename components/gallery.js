@@ -48,7 +48,7 @@ export default function Gallery() {
                         <div className="border-line-main-gallery"></div>
                         <div className="gallery-item gallery-item-text">
                             <p>
-                                Mobile Responsive Websites
+                                Smooth User Experience 
                             </p>
                         </div>
                     </div>
