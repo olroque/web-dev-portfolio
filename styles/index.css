@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+body.navMenuActive {
+  overflow-y: hidden;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -804,6 +808,10 @@ footer span {
     display: none;
   }
 
+  #nav-button-close {
+    display: none;
+  }
+
   .nav-menu-icon {
     display: block;
     width: 25px;
@@ -813,7 +821,7 @@ footer span {
 
   /* Collapsible Menu */
 
-  #test {
+  #collapsible-menu {
     display: none;
     overflow-y: hidden;
     scroll-behavior: none;

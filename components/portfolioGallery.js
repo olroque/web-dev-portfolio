@@ -14,11 +14,6 @@ export default function PortfolioGallery() {
                                 <Image src="/images/29.jpg" alt="picture of web developement project"
                                     width={700}
                                     height={700} />
-                                {/* <div className="overlay">
-                                    <span>
-                                    Project Number 1
-                                    </span>
-                                </div> */}
                             </a>
                         </div>
                         <div className="portfolio-item-description">
